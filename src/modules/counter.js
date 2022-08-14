@@ -19,7 +19,11 @@ function* increaseSaga(){
   yield put(increase());
 
   const number = yield select(state=>state.number);
+<<<<<<< HEAD
   console.log(`현재 값은 ${number}`);
+=======
+  console.log(`현재 값은 ${number}입니다.`);
+>>>>>>> d5201d55257950a0d6c6bfc6f6b18cc99361b886
 };
 
 function* decreaseSaga(){
